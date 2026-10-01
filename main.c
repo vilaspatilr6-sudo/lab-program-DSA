@@ -1,8 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-int main()
-{
-    printf("Hello world!\n");
+int main(){
+    int x,y,sum=0;
+    printf("\n read two numbers:\n");
+    scanf("%d %d",&x,&y);
+    printf("\n sum=%d",sum);
     return 0;
 }
+
+
